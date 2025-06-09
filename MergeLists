@@ -4,6 +4,7 @@ public class Solution {
         ListNode dummyHead = new ListNode(0); // fake starter
      // This 'current' pointer will be used to attach nodes as we build the result
         ListNode current = dummyHead;
+     // Loop until one of the lists becomes empty
 
         while (l1 != null && l2 != null) {
             if (l1.val < l2.val) {
