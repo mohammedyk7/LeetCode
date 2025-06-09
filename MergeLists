@@ -16,6 +16,7 @@ public class Solution {
             }
             current = current.next;
         }
+   // Compare the current values of both lists..
 
         // Attach the remaining list (one of them is still non-null)
         if (l1 != null) current.next = l1;
