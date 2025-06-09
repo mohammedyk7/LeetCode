@@ -25,8 +25,8 @@ public class Solution {
             current = current.next;
         }
 
-        return dummyHead.next;
+        return dummyHead.next;    //dummyHead itself is just a placeholder (value = 0, ignored)
     } // this is just a test push
-    // this is just a test push
+   
 
 }
